@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>frontend-testing — David Espinoza</title>
+<meta name="description" content="Bitácora de proyectos de práctica en HTML, CSS y JavaScript.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="wrap">
+
+  <div class="window">
+    <div class="titlebar">
+      <span class="tl-dot red"></span>
+      <span class="tl-dot yellow"></span>
+      <span class="tl-dot green"></span>
+      <span class="tl-title">david@frontend-testing: ~</span>
+    </div>
+
+    <div class="term-body">
+      <p class="line">
+        <span class="ps">david@frontend-testing</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span>
+        ls proyectos/<span class="cursor" aria-hidden="true"></span>
+      </p>
+
+      <header class="intro">
+        <h1>frontend-testing</h1>
+        <p>
+          Cada carpeta de este repo es un ejercicio independiente para practicar HTML, CSS
+          y JavaScript: una idea, una interfaz, un concepto nuevo. Esta página los lista
+          a todos y se actualiza sola cada vez que agrego un proyecto a <code>proyectos.js</code>.
+        </p>
+      </header>
+
+      <section id="listado" class="listado" aria-live="polite">
+        <!-- Las tarjetas de proyecto se generan por JavaScript. Ver script.js -->
+      </section>
+
+      <template id="tpl-vacio">
+        <div class="vacio">
+          <p class="vacio-lead">// aún no hay proyectos listados</p>
+          <p>
+            Agregá tu primer ejercicio en tres pasos: copiá la carpeta
+            <code>_plantilla/</code>, renombrala (ej. <code>restaurante/</code>) y sumá
+            un objeto nuevo en <code>proyectos.js</code>. El listado va a aparecer solo.
+          </p>
+        </div>
+      </template>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <p>David José Espinoza Soto <span class="dot">·</span> <a href="https://github.com/Daespinoza" target="_blank" rel="noopener">github.com/Daespinoza</a></p>
+  </footer>
+
+</main>
+
+<script src="proyectos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
