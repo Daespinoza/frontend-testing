@@ -25,5 +25,12 @@ const PROYECTOS = [
     descripcion: "Primera prueba de animacion con css.",
     tags: ["HTML", "CSS Grid", "Responsive"],
     estado: "completo"
+  },
+  {
+    nombre: "Text Glich Effect Animation",
+    carpeta: "text_glich_effect",
+    descripcion: "Segunda prueba de animacion con css.",
+    tags: ["HTML", "CSS Grid", "Responsive"],
+    estado: "completo"
   }
 ];
