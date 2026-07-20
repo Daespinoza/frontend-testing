@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+.text{
+    margin-top: -50px;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-spacing-trim: 10px;
+    color: #202020;
+    -webkit-box-reflect: below -60px linear-gradient(transparent, rgb(255,255,255,0.4));
+}

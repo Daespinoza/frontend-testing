@@ -21,15 +21,22 @@
 const PROYECTOS = [
   {
     nombre: "Multiple Text Typing Animation",
-    carpeta: "multiple_text_typing_animation",
+    carpeta: "multiple_text_typing",
     descripcion: "Primera prueba de animacion con css.",
     tags: ["HTML", "CSS Grid", "Responsive"],
     estado: "completo"
   },
   {
-    nombre: "Text Glich Effect Animation",
+    nombre: "Text Glich Effect",
     carpeta: "text_glich_effect",
-    descripcion: "Segunda prueba de animacion con css.",
+    descripcion: "Primera prueba de efecto con css.",
+    tags: ["HTML", "CSS Grid", "Responsive"],
+    estado: "completo"
+  },
+  {
+    nombre: "Simple Text Reflection Effect",
+    carpeta: "simple_text_reflection",
+    descripcion: "Segunda prueba de efecto con css.",
     tags: ["HTML", "CSS Grid", "Responsive"],
     estado: "completo"
   }
