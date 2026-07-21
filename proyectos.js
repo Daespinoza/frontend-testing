@@ -39,5 +39,12 @@ const PROYECTOS = [
     descripcion: "Segunda prueba de efecto con css.",
     tags: ["HTML", "CSS Grid", "Responsive"],
     estado: "completo"
+  },
+  {
+    nombre: "Text Wave Animation",
+    carpeta: "text_wave_animation",
+    descripcion: "Segunda prueba de animacion con css.",
+    tags: ["HTML", "CSS Grid", "Responsive"],
+    estado: "completo"
   }
 ];
