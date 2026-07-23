@@ -46,5 +46,12 @@ const PROYECTOS = [
     descripcion: "Segunda prueba de animacion con css.",
     tags: ["HTML", "CSS Grid", "Responsive"],
     estado: "completo"
+  },
+  {
+    nombre: "Sliding Text Animation",
+    carpeta: "sliding_text_animation",
+    descripcion: "Tercera prueba de animacion con css.",
+    tags: ["HTML", "CSS Grid", "Responsive"],
+    estado: "completo"
   }
 ];
